@@ -1,0 +1,7 @@
+
+
+    <app-header (featureSelected)="onNavigate($event)"></app-header>
+    <section>
+      <app-home-form *ngIf="loadedFeature === 'home'"></app-home-form>
+      <app-feature-list *ngIf="loadedFeature !== 'home'"></app-feature-list>zz
+    </section>

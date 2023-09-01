@@ -1,0 +1,16 @@
+.navbar{
+    font-family: sans-serif;
+    padding: 10px;
+    
+}
+.navbar-brand{
+    font-size: 45px;
+}
+.nav-link {
+    color: white;
+    font-size: 20px;
+}
+.navbar-toggler{
+    color: aliceblue;
+    background-color: aliceblue;
+}
